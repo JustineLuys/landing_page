@@ -9,15 +9,16 @@
     <body>
         <div class="nav">
             <div class="nav container">
-                <h1 class="title">My Anime</h1>
+                <h1 class="title">Art Anime</h1>
                 <ul class="header-list">
-                    <li class="home">Home</li>
-                    <li class="about">About Us</li>
-                    <li class="contact">Contact Us</li>
+                    <li class="home"><a href="index.html" target="_self">Home</a></li>
+                    <li class="about"><a href="#information">Images</a></li>
+                    <li class="contact"><a href="#quote">Quote</a></li>
+                    <li class="contact"><a href="#signup">Sign Up</a></li>
                 </ul>
             </div>
         </div>
-        <div class="header">
+        <div class="header section">
             <div class="header container">
                 <div class="description">
                     <h1>This website is awesome</h1>
@@ -26,13 +27,54 @@
                         feugiat vivamus. Massa tempor nec feugiat nisl pretium fusce id. Non quam lacus suspendisse faucibus interdum posuere.
                         Eget magna fermentum iaculis eu non diam phasellus.
                     </p>
-                    <button>Sign Up</button>
+                    <button onclick="alert('Cant sign-up yet, please try again later.')">Sign Up</button>
                 </div>
                 <div class="photo">
                     <img src="images/sunset.jpg" alt="Girl in Sunset">
                 </div>
                 
             </div>
+        </div>
+        <div class="information section">
+            <div class="information container" id="information">
+                <h1>All images thanks from andsproject from pixabay https://pixabay.com/users/andsproject-26081561/</h1>
+                <div class="card-container">
+                    <div class="cards">
+                       <img src="images/nature.svg" alt="Nature Girl" width="200">
+                       <p>Nature Girl</p>
+                    </div>
+                    <div class="cards">
+                        <img src="images/angel.svg" alt="Angel Girl" width="200">
+                       <p>Angel Girl</p>
+                    </div>
+                    <div class="cards">
+                        <img src="images/universe.svg" alt="Universe Girl" width="200">
+                       <p>Universe Girl</p>
+                    </div>
+                    <div class="cards">
+                        <img src="images/samurai.svg" alt="Samurai Girl" width="200">
+                       <p>Samurai Girl</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quote section" id="quote">
+            <div class="quote-wrapper">
+                <p><i>"It is during our darkest moments that we must focus to see the light."</i></p>
+                <p class="author"> — Aristotle</p>
+            </div>
+        </div>
+        <div class="action section" id="signup">
+            <div class="action-container">
+                <div class="action-content">
+                    <p><strong>Call to action! It's time!</strong></p>
+                    <p>Sign up for our product by clicking that button right over here</p>
+                </div>
+                <button class="action-signup" onclick="alert('Cant sign-up yet, please try again later.')">Sign up</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p> Copyright &#169 The Odin Project 2021</p>
         </div>
     </body>
 </html>
