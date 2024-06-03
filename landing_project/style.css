@@ -112,7 +112,6 @@ button {
     display: flex;
     gap: 30px;
     justify-content: space-evenly;
-    align-items: center;
     flex-wrap: wrap;
 }
 .cards {
